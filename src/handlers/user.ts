@@ -1,6 +1,7 @@
 import { Review, UserInt } from "@/interfaces/user"
 
-const host = "http://localhost:3000"
+//const host = "http://localhost:3000"
+const host = "https://shinybook.vercel.app"
 
 class UserClass{
     constructor(){}
