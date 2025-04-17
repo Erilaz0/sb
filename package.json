@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.5",
+    "cloudinary": "^2.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "next": "15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.0"
+    "react-hook-form": "^7.55.0",
+    "sass": "^1.86.3",
+    "sweetalert2": "^11.19.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "typescript": "^5"
   }
 }

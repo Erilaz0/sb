@@ -1,0 +1,255 @@
+.user_container{
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+    .user_item{
+        margin-top: 0px;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border: 5px solid #ffffff;
+        padding: 0 !important;
+        .config_and_photo{
+            background-color: rgba(125, 54, 121, 0.429);
+            padding-bottom: 30px;
+            height: 200px;
+            background-size: cover;
+            width: 100%;
+            display: flex;
+            border-bottom: 5px solid #ffffff;
+            img{
+                border-radius: 100%;
+                transform: translateY(90px);
+                margin-left: 20px;
+            }
+            .camera{
+                background-color: #ffffff89;
+                padding: 5px;
+                position: absolute;
+                transform: translateY(20px);
+            }
+            .profile{
+                border: 5px solid #ffffff;
+            }
+            .config{
+                margin-top: 17px;
+                position: absolute;
+                background-color: #ffffff;
+                padding: 3px;
+                
+            }
+            button{
+                background-color: transparent ;
+                border: 0px;
+            }
+            .dropdown{
+                transform: translateY(-15px) translateX(30px);
+                position: absolute;
+            }
+            h1{
+                font-size: 23px;
+                transform: translateX(-5px);
+                margin-top: 170px;
+                height: fit-content;
+                padding: 5px;
+                width: fit-content;
+                border-radius: 30px;
+                width: 100%;
+                max-width: 150px;
+                color:#ffffff;
+                background-color:rgb(197, 153, 195);
+                border: 5px solid #ffffff;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-top-left-radius: 0px;
+                clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+                border-radius: 0;
+            }
+        }
+        .info{
+            height: 300px;
+        .data{
+            margin-top: -5px;
+            display: flex;
+            transform: translateX(210px) translateY(-20px);
+            gap: 20px;
+            width: 100px;
+            height: 140px !important;
+            .data_icon_cont{
+                display: flex;
+                gap: 5px;
+            .data_icon{
+                display: flex;
+                flex-direction: row-reverse;
+                gap: 17px;
+                width: 40px;
+              p{
+                margin: 0;
+                width: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+                
+              }
+              img{
+                margin-top: 5px;
+                transform: translateY(55px) translateX(15px);
+                filter: invert(26%) sepia(100%) saturate(300%) hue-rotate(270deg) brightness(75%);
+              }
+             }
+            }
+        }
+        .description{
+            width: fit-content;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 470px;
+            text-align: start;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 30px;
+            font-size: 13px;
+            padding-top: 0px;
+            margin-top: -20px;
+            margin-left: 30px;
+            padding-bottom: 0px;
+        }
+        .buttons{           
+            display: flex;
+            gap: 10px;
+            height: 100px;
+            padding-bottom: 30px;
+            padding-top: 50px;
+            width: 100%;
+            background-color: #ffffff;
+            border-bottom: 1px solid #00000025;
+          .buttons_cont{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            max-width: 400px;
+            width: 100%;
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #633d536f;
+                background-color: #ffffff;
+                padding-left: 8px;
+                padding-right: 8px;
+                height: 42px;
+
+            }
+            .lectores{
+                display: flex;
+                gap: 3px;
+                padding: 5px;
+            }
+            .rev{
+                background-color: #633d53;
+                color: #f0f1e0;
+                padding: 5px;
+            }
+         }
+        }
+        }
+        .reviews_cont{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            width: 100%;
+            max-width: 600px;
+            gap: 5px;
+            padding-bottom: 150px;
+            height: fit-content;
+            min-height: 100px;
+         .review{
+            height: fit-content;
+            width: 30%;
+            max-width: 500px;
+            .review_image{
+                width: 100% !important;
+                margin-top: 10px;
+                aspect-ratio: 1 / 1.3;
+            }
+            .rate{
+                aspect-ratio: 1 / 1.3;
+                height: 50px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                filter: brightness(0) saturate(100%) invert(72%) sepia(91%) saturate(658%) hue-rotate(360deg);
+
+                img{
+                    margin-top: -10px;
+                    width: 20%;
+                    aspect-ratio: 1 / 1;
+
+                }
+            }
+        }
+        }
+    }
+}
+@media screen and ( max-width: 500px ){
+    .user_container{
+        width: 100%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+    
+        .user_item{
+            .config_and_photo{
+                img{
+                    transform: translateY(120px);
+                }
+                .profile{
+                    border: 5px solid #ffffff;
+                    width: 150px;
+                    height: 150px;
+                }
+                .config{
+                    margin-top: 10px;
+                    position: absolute;
+                    background-color: #ffffff;
+                    padding: 3px;
+                    margin-left: 75px;
+                    
+                }
+                h1{
+                    font-size: 18px;
+                    padding: 5px;
+                    width: fit-content;
+                    max-width: 130px !important;
+                    width: 130px !important;
+                }
+            }
+      .info{
+        height: 250px;
+    
+        .data{
+            transform: translateX(160px) translateY(-30px)!important;
+        }
+        .description{
+            text-align: center;
+            margin-left: 0px;
+        }
+        .buttons{
+            .buttons_cont{
+                
+            }
+        }
+       }
+         .reviews_cont{
+        
+         }
+        }
+    }
+}

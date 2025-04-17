@@ -1,0 +1,48 @@
+.form_container{
+    width: 100%;
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    .review_form{
+        width: 300px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(251, 231, 197);
+        padding: 20px;
+        border-radius: 30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        input{
+            width: 100%;
+            height: 30px;
+        }
+        button{
+            width: 150px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #0000004d;
+            background-color: rgba(113, 58, 120, 0.622);
+            color: #ffffff;
+        }
+        button:hover{
+            background-color: rgba(186, 113, 195, 0.622);
+            color: #ffffff;
+        }
+        #check{
+            width: 15px;
+            height: 15px;
+            transform: translateY(3px);
+        }
+        .emotion{
+            margin-bottom: -10px;
+        }
+        #option{
+            margin-top: -10px;
+            height: 35px;
+        }
+    }
+}
